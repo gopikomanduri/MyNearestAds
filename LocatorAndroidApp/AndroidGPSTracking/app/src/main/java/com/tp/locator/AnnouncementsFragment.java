@@ -135,6 +135,8 @@ public class AnnouncementsFragment extends Fragment implements LoaderManager.Loa
                     Long timestamp = System.currentTimeMillis();
                     String steTimeStamp =  timestamp.toString();
                    String fromNumber = dbObj.getMyNumber();
+                    String Name = dbObj.getMyName();
+                    String sex = dbObj.getMySex();
                     Bundle dataBundle = new Bundle();
                     Map<String,String> internalData = new HashMap<String, String>();
 
@@ -143,24 +145,16 @@ public class AnnouncementsFragment extends Fragment implements LoaderManager.Loa
                     internalData.put("MSG", strMsg+" : "+fromNumber);
                     internalData.put("TimeStamp", steTimeStamp);
                     internalData.put("FROMUSER", fromNumber);
+                    internalData.put("Name", Name);
+                    internalData.put("Sex", sex);
 
 
                     comsObj.params.put("from", fromNumber);
                    // comsObj.params.put("data", internalData);
 
-
-                    dataBundle.putString("ACTION", "ANN");
-                    dataBundle.putString("DATE", todayDate);
-                    dataBundle.putString("MSG", strMsg);
-                    dataBundle.putString("TimeStamp", steTimeStamp);
-
-                    dataBundle.putString("FROMUSER", fromNumber);
-
-
                     comsObj.params.put("from", fromNumber);
 
                     if(GPSTracker.geoHash_6.length() > 3) {
-                        dataBundle.putString("GEOHASH_3Chars", GPSTracker.geoHash_6.substring(0, 3));
                         internalData.put("GEOHASH_3Chars", GPSTracker.geoHash_6.substring(0, 3));
                         comsObj.params.put("data", internalData);
                         Gson gson = new Gson();

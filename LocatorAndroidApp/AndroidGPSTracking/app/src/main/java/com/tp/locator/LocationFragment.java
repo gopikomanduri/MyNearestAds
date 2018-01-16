@@ -2,7 +2,10 @@ package com.tp.locator;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -30,6 +33,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.concurrent.ConcurrentLinkedQueue;
+
+import static android.content.Context.CLIPBOARD_SERVICE;
 
 /**
  * Created by gkomandu on 7/31/2015.
@@ -72,6 +77,41 @@ public class LocationFragment extends Fragment implements LoaderManager.LoaderCa
           //  Toast.makeText(activity,"Save ",Toast.LENGTH_LONG).show();
             initiatePopupWindow(addr);
         }
+        else if(item.getTitle()=="Copy")
+        {
+            MyClipboardManager tempobj = new MyClipboardManager();
+            tempobj.copyToClipboard(getActivity().getApplication().getApplicationContext(), addr);
+        }
+        else if(item.getTitle()=="Navigate")
+        {
+            int pos1 = addr.indexOf("https://");
+            int pos2 = addr.indexOf("received");
+          String mapurl = addr.substring(pos1,pos2-1);
+            Intent intent = new Intent(Intent.ACTION_VIEW,
+                    Uri.parse(mapurl));
+         //   startActivity(intent);
+            int latPos1 = addr.indexOf("LAT :");
+            int latPos2 = addr.indexOf("LNG :");
+            String latValue = addr.substring(latPos1+5, latPos2-2);
+            int lngPos2 = addr.indexOf("Geohash_F");
+            String lngValue = addr.substring(latPos2+5,lngPos2-2);
+
+            Uri gmmIntentUri = Uri.parse("geo:"+latValue+","+lngValue);
+            Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+            mapIntent.setPackage("com.google.android.apps.maps");
+            startActivity(mapIntent);
+          //  String geoUri = "http://maps.google.com/maps?q=loc:" + latValue + "," + lngValue ;
+
+
+        }
+        else if(item.getTitle() == "Share"){
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT,addr);
+            sendIntent.setType("text/plain");
+            Intent.createChooser(sendIntent,"Share via");
+            startActivity(sendIntent);
+        }
         else if(item.getTitle()=="Delete"){
             Toast.makeText(activity,"Delete", Toast.LENGTH_LONG).show();
         }else{
@@ -96,7 +136,7 @@ public class LocationFragment extends Fragment implements LoaderManager.LoaderCa
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.savepopupmenu,
                     (ViewGroup) getActivity().findViewById(R.id.popup_element));
-            pwindo = new PopupWindow(layout, 300, 370, true);
+            pwindo = new PopupWindow(layout, 700, 700, true);
             pwindo.showAtLocation(layout, Gravity.CENTER, 0, 0);
             sname = (EditText)layout.findViewById(R.id.saveName);
             sprofName = (EditText)layout.findViewById(R.id.saveProfessionalName);
@@ -165,10 +205,21 @@ public class LocationFragment extends Fragment implements LoaderManager.LoaderCa
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
         menu.setHeaderTitle("Select The Action");
+        menu.add(0, v.getId(), 0, "Copy");
+        menu.add(0, v.getId(), 0, "Share");
+        menu.add(0, v.getId(), 0, "Navigate");
         menu.add(0, v.getId(), 0, "Save");//groupId, itemId, order, title
         menu.add(0, v.getId(), 0, "Delete");
     }
-
+//    private void copyToClipBoard() {
+//
+//        ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+//        ClipData clip = ClipData.newPlainText(
+//                "text label", // What should I set for this "label"?
+//                "content to be copied");
+//        clipboard.setPrimaryClip(clip);
+//        Toast.makeText(AboutActivity.this, "Saved to clip board", Toast.LENGTH_SHORT).show();
+//    }
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);

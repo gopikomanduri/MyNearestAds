@@ -10,8 +10,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Search name / professional service.."
+        android:textColorHint="@color/BrightBlue"
         android:textColor="@color/BrightBlack"
         android:textStyle="bold"
+        android:textSize="13sp"
         android:inputType="textVisiblePassword"/>
 
     <ListView

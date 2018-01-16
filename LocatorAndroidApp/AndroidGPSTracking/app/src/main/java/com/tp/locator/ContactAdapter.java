@@ -11,7 +11,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.google.gson.Gson;
@@ -79,7 +81,7 @@ public class ContactAdapter extends ArrayAdapter<allowedContacts> implements Ada
 
 
     @Override
-    public View getView(final int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, final ViewGroup parent) {
      //   View view = convertView;
         final ViewHolder holder;
         if (convertView == null) {
@@ -94,11 +96,12 @@ public class ContactAdapter extends ArrayAdapter<allowedContacts> implements Ada
             holder.tvname = (TextView) convertView.findViewById(R.id.tvname);
             holder.tvnumber = (TextView) convertView.findViewById(R.id.tvnumber);
      /*   holder.isAllowed = (CheckBox) view.findViewById(R.id.checkBox1);*/
-            holder.isAllowed = (Spinner)convertView.findViewById(R.id.spinner1);
+            holder.isAllowed = (Switch) convertView.findViewById(R.id.toggleButton1);
             holder.trackHim = (Button)convertView.findViewById(R.id.trackHim);
 
 
-
+            holder.isAllowed.setTextOn("On"); // displayed text of the Switch whenever it is in checked or on state
+            holder.isAllowed.setTextOff("Off"); // displayed text of the Switch whenever it is in unchecked i.e. off state
 
             holder.trackHim.setOnClickListener(new View.OnClickListener() {
 
@@ -160,38 +163,41 @@ public class ContactAdapter extends ArrayAdapter<allowedContacts> implements Ada
                 }
 
             });
-     //   holder.isAllowed.setSelection(0);
 
-            holder.isAllowed.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            holder.isAllowed.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
-                    Object tagVal = view.getTag();
-                    Object tagVal1 = parent.getTag();
+                public void onClick(View v) {
+                                        Object tagVal1 = v.getTag();
+                    int getPosition = (Integer)tagVal1;
+                    int x  = 30;
+                  allowedContacts obj =  items.get(getPosition);
+                    x = 40;
+                  //  Object tagVal1 = parent.getTag();
 
 
                     if(tagVal1 != null) {
-                        String str = parent.getTag().toString();
-                        int getPosition = (Integer) parent.getTag();  // Here we get the position that we have set for the checkbox using setTag.
                         //    items.get(getPosition).setSelected(view.isChecked()); // Set the value of checkbox to maintain its state.
-                        String tempVal = parent.getItemAtPosition(pos).toString();
+                      //  String tempVal = parent.getItemAtPosition(pos).toString();
+
                         //   holder.isAllowed.setSelection(2);
 
                         allowedContacts tempobj = items.get(getPosition);
                         if (tempobj.isAllowed.intern().equalsIgnoreCase("No") == true) {
-                            holder.isAllowed.setSelection(0,false);
+                            holder.isAllowed.setChecked(false);
                         } else {
-                            holder.isAllowed.setSelection(tempobj.isMockAllowed + 1);
+                            holder.isAllowed.setChecked(true);
                         }
                         int l1 = items.size();
                         int l2 = getPosition;
                         if(items.size() > getPosition)
                         {
-                        items.get(getPosition).isAllowed = tempVal ;//parent.getItemAtPosition(pos).toString();
-                        if (tempVal.equalsIgnoreCase("No") == false) {
-                            Integer MockAllowed = tempVal.equalsIgnoreCase("Mock") ? 1 : 0;
+                       // items.get(getPosition).isAllowed = tempVal ;//parent.getItemAtPosition(pos).toString();
+                        if (holder.isAllowed.isChecked() == false) {
+                            Integer MockAllowed = 0;//= tempVal.equalsIgnoreCase("Mock") ? 1 : 0;
                             //Gopi .. removing Mock
                             MockAllowed = 0;
-                            holder.isAllowed.setSelection(MockAllowed + 1);
+                            holder.isAllowed.setChecked(true);
                             if (LocationTrackerFragment.dbObj.getidFromNumber(items.get(getPosition).contactNumber) <= 0) {
                                 LocationTrackerFragment.dbObj.insertContact(items.get(getPosition).contactNumber,
                                         items.get(getPosition).contactName,
@@ -207,16 +213,17 @@ public class ContactAdapter extends ArrayAdapter<allowedContacts> implements Ada
                                 tempobj.isMockAllowed = MockAllowed;
                                 MySmsReceiver.allowedContactsObj.put(tempobj.contactNumber, tempobj);
 
-                            } else if (tempVal.equalsIgnoreCase("Yes") == true) {
+                            } else //if (tempVal.equalsIgnoreCase("Yes") == true)
+                                 {
                                 LocationTrackerFragment.dbObj.updateContactwithAllowedTimings(items.get(getPosition).contactNumber,
                                         "yes",
                                         "");
                                 tempobj.isAllowed = "yes";
                                 tempobj.isMockAllowed = 0;
-                            } else {
-                                LocationTrackerFragment.dbObj.updateContactwithMockDetails(items.get(getPosition).contactNumber, "yes", "", "temp");
-                                tempobj.isAllowed = "yes";
-                                tempobj.isMockAllowed = 1;
+//                            } else {
+//                                LocationTrackerFragment.dbObj.updateContactwithMockDetails(items.get(getPosition).contactNumber, "yes", "", "temp");
+//                                tempobj.isAllowed = "yes";
+//                                tempobj.isMockAllowed = 1;
 
                             }
                             /*for(int i=0;i<DataService.newItems.size();++i)
@@ -235,8 +242,10 @@ public class ContactAdapter extends ArrayAdapter<allowedContacts> implements Ada
                                 MySmsReceiver.allowedContactsObj.put(tempobj.contactNumber, tempobj);
                             }
                         } else {
-                            holder.isAllowed.setSelection(0);
-                            allowedContacts obj = items.get(getPosition);
+                            holder.isAllowed.setChecked(false);
+                            tempobj.isAllowed = "no";
+                            tempobj.isMockAllowed = 0;
+                           // allowedContacts obj = items.get(getPosition);
                             if (LocationTrackerFragment.dbObj.getidFromNumber(items.get(getPosition).contactNumber) > 0) {
                                 LocationTrackerFragment.dbObj.deleteContact(items.get(getPosition).contactNumber);
                             }
@@ -245,27 +254,124 @@ public class ContactAdapter extends ArrayAdapter<allowedContacts> implements Ada
                             }
                         }
                             String number = items.get(getPosition).contactNumber;
-                            int x = holder.isAllowed.getSelectedItemPosition();
                            // LocationTrackerFragment.dbObj.updateContactwithIsAllowedChange(number,holder.isAllowed.getSelectedItemPosition());
                             //LocationTrackerFragment.dbObj.updateContactwithMockDetails(items.get(getPosition).contactNumber, "yes", "", "temp");
-                            LocationTrackerFragment.updatedWithPermission.put(number,holder.isAllowed.getSelectedItemPosition());
-                    }
+                            if(holder.isAllowed.isChecked() == true)
+                            LocationTrackerFragment.updatedWithPermission.put(number,1);
+                            else
+                                LocationTrackerFragment.updatedWithPermission.put(number,0);
+                        }
 
                     }
 
                 }
-
-                @Override
-                public void onNothingSelected(AdapterView<?> adapterView) {
-
-                }
-
             });
+     //   holder.isAllowed.setSelection(0);
+
+//            holder.isAllowed.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+//                @Override
+//                public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
+//                    Object tagVal = view.getTag();
+//                    Object tagVal1 = parent.getTag();
+//
+//
+//                    if(tagVal1 != null) {
+//                        String str = parent.getTag().toString();
+//                        int getPosition = (Integer) parent.getTag();  // Here we get the position that we have set for the checkbox using setTag.
+//                        //    items.get(getPosition).setSelected(view.isChecked()); // Set the value of checkbox to maintain its state.
+//                        String tempVal = parent.getItemAtPosition(pos).toString();
+//                        //   holder.isAllowed.setSelection(2);
+//
+//                        allowedContacts tempobj = items.get(getPosition);
+//                        if (tempobj.isAllowed.intern().equalsIgnoreCase("No") == true) {
+//                            holder.isAllowed.setSelection(0,false);
+//                        } else {
+//                            holder.isAllowed.setSelection(tempobj.isMockAllowed + 1);
+//                        }
+//                        int l1 = items.size();
+//                        int l2 = getPosition;
+//                        if(items.size() > getPosition)
+//                        {
+//                        items.get(getPosition).isAllowed = tempVal ;//parent.getItemAtPosition(pos).toString();
+//                        if (tempVal.equalsIgnoreCase("No") == false) {
+//                            Integer MockAllowed = tempVal.equalsIgnoreCase("Mock") ? 1 : 0;
+//                            //Gopi .. removing Mock
+//                            MockAllowed = 0;
+//                            holder.isAllowed.setSelection(MockAllowed + 1);
+//                            if (LocationTrackerFragment.dbObj.getidFromNumber(items.get(getPosition).contactNumber) <= 0) {
+//                                LocationTrackerFragment.dbObj.insertContact(items.get(getPosition).contactNumber,
+//                                        items.get(getPosition).contactName,
+//                                        "yes",
+//                                        "",
+//                                        "w r u",
+//                                        MockAllowed,
+//                                        "",
+//                                        "",
+//                                        "temp"
+//                                );
+//                                tempobj.isAllowed = "yes";
+//                                tempobj.isMockAllowed = MockAllowed;
+//                                MySmsReceiver.allowedContactsObj.put(tempobj.contactNumber, tempobj);
+//
+//                            } else if (tempVal.equalsIgnoreCase("Yes") == true) {
+//                                LocationTrackerFragment.dbObj.updateContactwithAllowedTimings(items.get(getPosition).contactNumber,
+//                                        "yes",
+//                                        "");
+//                                tempobj.isAllowed = "yes";
+//                                tempobj.isMockAllowed = 0;
+//                            } else {
+//                                LocationTrackerFragment.dbObj.updateContactwithMockDetails(items.get(getPosition).contactNumber, "yes", "", "temp");
+//                                tempobj.isAllowed = "yes";
+//                                tempobj.isMockAllowed = 1;
+//
+//                            }
+//                            /*for(int i=0;i<DataService.newItems.size();++i)
+//                            {
+//                                String number = items.get(getPosition).contactNumber;
+//                                if(DataService.newItems.get(i).contactNumber.equals(number) == true)
+//                                {
+//                                    //PhoneContact obj = DataService.newItems.remove(i);
+//
+//                                }
+//                            }*/
+//
+//
+//                            if (MySmsReceiver.allowedContactsObj.containsKey(tempobj.contactNumber) == true) {
+//                                MySmsReceiver.allowedContactsObj.remove(tempobj.contactNumber);
+//                                MySmsReceiver.allowedContactsObj.put(tempobj.contactNumber, tempobj);
+//                            }
+//                        } else {
+//                            holder.isAllowed.setSelection(0);
+//                            allowedContacts obj = items.get(getPosition);
+//                            if (LocationTrackerFragment.dbObj.getidFromNumber(items.get(getPosition).contactNumber) > 0) {
+//                                LocationTrackerFragment.dbObj.deleteContact(items.get(getPosition).contactNumber);
+//                            }
+//                            if (MySmsReceiver.allowedContactsObj.containsKey(tempobj.contactNumber) == true) {
+//                                MySmsReceiver.allowedContactsObj.remove(tempobj.contactNumber);
+//                            }
+//                        }
+//                            String number = items.get(getPosition).contactNumber;
+//                            int x = holder.isAllowed.isChecked();
+//                           // LocationTrackerFragment.dbObj.updateContactwithIsAllowedChange(number,holder.isAllowed.getSelectedItemPosition());
+//                            //LocationTrackerFragment.dbObj.updateContactwithMockDetails(items.get(getPosition).contactNumber, "yes", "", "temp");
+//                            LocationTrackerFragment.updatedWithPermission.put(number,holder.isAllowed.getSelectedItemPosition());
+//                    }
+//
+//                    }
+//
+//                }
+//
+//                @Override
+//                public void onNothingSelected(AdapterView<?> adapterView) {
+//
+//                }
+//
+//            });
 
            convertView.setTag(holder);
             convertView.setTag(R.id.tvname, holder.tvname);
             convertView.setTag(R.id.tvnumber, holder.tvnumber);
-            convertView.setTag(R.id.spinner1, holder.isAllowed);
+            convertView.setTag(R.id.toggleButton1, holder.isAllowed);
 
 
         }
@@ -285,9 +391,9 @@ public class ContactAdapter extends ArrayAdapter<allowedContacts> implements Ada
        // mockAllowed = 0;
         if(str != null) {
             if (str.intern().equalsIgnoreCase("No"))
-                holder.isAllowed.setSelection(0);
+                holder.isAllowed.setChecked(false);
             else if (str.intern().equalsIgnoreCase("Yes") && (mockAllowed == 0))
-                holder.isAllowed.setSelection(1);
+                holder.isAllowed.setChecked(true);;
             //Gopi .. removed Mock
 //            else
 //                holder.isAllowed.setSelection(2);

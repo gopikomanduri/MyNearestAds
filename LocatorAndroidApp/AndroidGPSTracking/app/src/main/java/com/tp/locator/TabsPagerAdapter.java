@@ -44,6 +44,8 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
             case 4:
                 // Followers fragment activity
                 return new AnnouncementsFragment();
+            case 5:
+                return new AnnouncementBizSendingFragment();
         /*    case 6:
                 // Followers fragment activity
                 return new DealsFragment();
@@ -58,7 +60,7 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // get item count - equal to number of tabs
-        return 5;
+        return 6;
     }
 
 }

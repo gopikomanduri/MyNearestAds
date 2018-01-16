@@ -16,7 +16,8 @@
         android:layout_margin="60dp"
         android:layout_marginBottom="74dp"
         android:contentDescription="Application Logo"
-        android:src="@drawable/background" />
+        android:src="@drawable/background"
+        android:id="@+id/imageView5" />
 
     <EditText
         android:id="@+id/userName"
@@ -28,8 +29,10 @@
         android:layout_marginRight="20dp"
         android:textColor="@color/BrightBlack"
         android:textStyle="bold"
-        android:singleLine="true"
+        android:maxLength="10"
+        android:maxLines="1"
         android:inputType="number"
+        android:textColorHint="@color/BrightBlue"
         android:hint="@string/enter_username" />
 
 
@@ -41,25 +44,39 @@
         android:background="@color/BrightBlue"
         android:text="@string/signup"
         android:textColorHint="@color/White"
-        android:layout_marginTop="37dp"
-        android:layout_below="@+id/Password"
-        android:layout_alignLeft="@+id/Password"
-        android:layout_alignStart="@+id/Password" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/Name"
+        android:layout_alignStart="@+id/Name"
+        android:layout_marginBottom="46dp" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
         android:ems="10"
         android:textColor="@color/BrightBlack"
         android:textStyle="bold"
-        android:id="@+id/Password"
+        android:id="@+id/Name"
         android:layout_below="@+id/userName"
         android:layout_alignLeft="@+id/userName"
         android:layout_alignStart="@+id/userName"
         android:layout_alignRight="@+id/userName"
         android:layout_alignEnd="@+id/userName"
-        android:hint="@string/enter_password" />
+        android:textColorHint="@color/BrightBlue"
+        android:hint="@string/enter_name" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/BrightBlack"
+        android:textStyle="bold"
+        android:id="@+id/sex"
+        android:entries="@array/sex"
+        android:prompt="@string/sex_input"
+        android:layout_above="@+id/ButtonSignUp"
+        android:layout_alignLeft="@+id/ButtonSignUp"
+        android:layout_alignStart="@+id/ButtonSignUp"
+        android:layout_marginBottom="19dp" />
 
 
 </RelativeLayout>

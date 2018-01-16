@@ -7,11 +7,18 @@ import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.Spanned;
+import android.text.style.TypefaceSpan;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -32,7 +39,7 @@ public class MainActivity extends FragmentActivity implements
 
     // Tab titles
   //  private String[] tabs = { "Location","Traveled Locations","Settings","Saved Locations","Nearest People","Notifications" };
-    private String[] tabs = { "Location","Traveled Locations","Saved Locations","Nearest People","Notifications" };
+    private String[] tabs = { "Location","Traveled Locations","Saved Locations","Nearest People","Notifications","Announcements" };
   //  private String[] tabs = { "Location","Traveled Locations" };
 
     @Override
@@ -46,6 +53,13 @@ public class MainActivity extends FragmentActivity implements
         // Initilization
         viewPager = (ViewPager) findViewById(R.id.pager);
         actionBar = getActionBar();
+        actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#303F9F")));
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setStackedBackgroundDrawable(new ColorDrawable(Color.parseColor("#448AFF")));
+
+
+
 
         FragmentManager fm = getSupportFragmentManager();
 
@@ -58,7 +72,7 @@ public class MainActivity extends FragmentActivity implements
         int cnt = mAdapter.getCount();
 
         viewPager.setAdapter(mAdapter);
-        actionBar.setHomeButtonEnabled(false);
+        actionBar.setHomeButtonEnabled(true);
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
         // Adding Tabs
@@ -88,6 +102,9 @@ public class MainActivity extends FragmentActivity implements
             }
         });
 
+       // viewPager.setBackgroundColor(Color.GREEN);
+
+
     }
 
     @Override
@@ -100,12 +117,46 @@ public class MainActivity extends FragmentActivity implements
         // on tab selected
         // show respected fragment view
         int x = tab.getPosition();
+     //   tab.setText(tabs[x]+" !");
         viewPager.setCurrentItem(x);
+
+        Typeface typeface = Typeface.createFromAsset(getAssets(),
+                "fonts/Bender-Solid.otf");
+         SpannableString s = new SpannableString(tabs[x]);
+        s.setSpan(typeface, 0, tabs[x].length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+
+
+//        TypefaceSpan typefaceSpan = new TypefaceSpan("fonts/Bender-Solid.otf");
+//        Typeface.createFromAsset(getAssets(), "fonts/Bender-Solid.otf");
+//
+////        textView.setSpan(typefaceSpan, indexStart, textLength, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+////
+////
+//      //  SpannableString s = new SpannableString(tabs[x]);
+////        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Bender-Solid.otf");
+////
+////        SS.setSpan (new CustomTypefaceSpan("", font2), 0, 4, Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
+//
+//
+//       // s.setSpan(typefaceSpan, 0, tabs[x].length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+//
+//        SpannableString s = new SpannableString(tabs[x]);
+//        s.setSpan(new TypefaceSpan(context, context.getString(R.string.custom_font)), 0, s.length(),
+//                Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+
+
+        // Update the action bar title with the TypefaceSpan instance
+        //actionBar.setTitle(s);
+        tab.setText(s +" !");
     }
 
     @Override
     public void onTabUnselected(Tab tab, FragmentTransaction ft) {
+        int x = tab.getPosition();
+        tab.setText(tabs[x]);
     }
+
     private void addShortcut() {
         Intent shortcutIntent = new Intent(getApplicationContext(), MainActivity.class);
         shortcutIntent.setAction(Intent.ACTION_MAIN);

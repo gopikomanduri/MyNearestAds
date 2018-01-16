@@ -28,6 +28,7 @@ public class SplashActivity extends Activity {
         staticSplashCtx = this.getBaseContext();
         setContentView(R.layout.activity_splash);
         new BackgroundSplashTask().execute();
+       // new ProgressDlg(this).execute();
         new SettingsClass(getApplicationContext());
     }
 

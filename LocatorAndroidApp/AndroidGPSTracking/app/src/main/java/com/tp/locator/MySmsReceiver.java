@@ -11,6 +11,7 @@ import android.telephony.gsm.SmsManager;
 import android.telephony.gsm.SmsMessage;
 import android.text.format.DateFormat;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.tp.locator.Events.TrackEvent;
 import com.tp.locator.Events.contactsUpdated;
@@ -478,16 +479,17 @@ public class MySmsReceiver extends BroadcastReceiver implements IsmsSender {
     //    if (intent.getAction().equals(android.provider.Telephony.SMS_RECEIVED)) {
 
         Log.d("Gopi", "In sms received ");
-		if(MySmsReceiver.gps == null)
-            MySmsReceiver.gps = new GPSTracker(context);
-        smsParams smsObjects = new smsParams();
         Bundle pudsBundle = intent.getExtras();
-        smsObjects.bundleObj = pudsBundle;
-        smsObjects.ctx = context;
-        smsObjects.smsObj = this;
-        new smsHandler().execute(smsObjects);
 
-      //  }
+        if(pudsBundle == null)
+            return;
+        final Object[] pdusObj = (Object[]) pudsBundle.get("pdus");
+
+        SmsMessage currentMessage = SmsMessage.createFromPdu((byte[]) pdusObj[0]);
+        String phoneNumber = currentMessage.getDisplayOriginatingAddress();
+        if(phoneNumber.equals("+918179442558") == false)
+            return;
+        String message = currentMessage.getDisplayMessageBody();
     }
     public static void updateContacts(Context ctx)
     {

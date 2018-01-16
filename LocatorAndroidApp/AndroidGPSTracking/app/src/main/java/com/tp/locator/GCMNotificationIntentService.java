@@ -52,7 +52,7 @@ public static Context tempCtx = null;
     }
 
     @Override
-    protected void onHandleIntent(Intent intent) {
+    public void onHandleIntent(Intent intent) {
       //  Log.d(TAG, "onHandleIntent " + intent.getDataString());
 
         Bundle extras = intent.getExtras();

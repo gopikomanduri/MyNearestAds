@@ -72,7 +72,7 @@ public void sendFromZoho(String reportBody)
             String sb = reportBody;
             // message.setSubject("Test Subject");
             message.setText(sb.toString());
-            Transport.send(message);
+//            Transport.send(message);
         }
         catch (MessagingException e)
         {   e.printStackTrace();
@@ -94,7 +94,7 @@ public void sendFromZoho(String reportBody)
             // specify your recipients and send the email
          //   Toast.makeText(context,"sending report",Toast.LENGTH_LONG).show();
             Log.d("Gopi", "sending email");
-            sendFromZoho(reportBody);
+//            sendFromZoho(reportBody);
            // gMailSender.sendMail("CRASH REPORT", reportBody, emailUsername, "locatorlogs@gmail.com, locatorlogs@gmail.com");
         } catch (Exception e) {
 //            Toast.makeText(context,"error in sending report",Toast.LENGTH_LONG).show();

@@ -50,6 +50,8 @@ public class NetworkResponder implements IResponder {
             dbObj = ContactContentProvider.database;
 
         String currentPhoneNum = dbObj.getMyNumber();
+        String Name = dbObj.getMyName();
+        String sex = dbObj.getMySex();
         dataBundle.putString("FROMUSER", currentPhoneNum);
         comsMsg.params.put("from", currentPhoneNum);
 
@@ -57,6 +59,8 @@ public class NetworkResponder implements IResponder {
 
         dataBundle.putString("ADDRESS", msg);
         data.put("ADDRESS", msg);
+        data.put("Name", Name);
+        data.put("sex",sex);
 
         dataBundle.putString("at", currentTimeStamp);
         data.put("at", currentTimeStamp);

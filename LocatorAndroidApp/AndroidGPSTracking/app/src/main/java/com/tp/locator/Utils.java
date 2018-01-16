@@ -39,6 +39,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+import java.util.Random;
 
 /**
  * Created by user on 7/3/2015.
@@ -299,6 +300,26 @@ public class Utils {
 
            }
         }
+    }
+
+
+    public static String random() {
+        Random generator = new Random();
+        StringBuilder randomStringBuilder = new StringBuilder("");
+        while(randomStringBuilder.length() < 4) {
+//            int randomLength = generator.nextInt(4);
+//            char tempChar;
+//            for (int i = 0; i < randomLength; i++) {
+//                tempChar = (char) (generator.nextInt(96) + 32);
+//                randomStringBuilder.append(tempChar);
+//            }
+
+            Random random = new Random();
+            int value = random.nextInt(9);
+            randomStringBuilder.append(value);
+        }
+
+        return randomStringBuilder.toString();
     }
 }
 

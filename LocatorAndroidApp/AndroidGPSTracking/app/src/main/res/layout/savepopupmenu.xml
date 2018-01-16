@@ -11,16 +11,18 @@
     android:padding="10sp" >
 
     <EditText
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:id="@+id/saveName"
         android:hint="Name"
+        android:textColorHint="@color/BrightBlue"
         android:singleLine="true"
         android:inputType="textCapWords"/>
 
     <EditText
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:textColorHint="@color/BrightBlue"
 
         android:hint="Professional Name"
 
@@ -29,14 +31,16 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="50dp"
+        android:textColorHint="@color/BrightBlue"
 
         android:hint="Service"
 
         android:id="@+id/saveServiceName" />
 
     <EditText
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:textColorHint="@color/BrightBlue"
 
         android:hint="contact number"
         android:inputType="number"

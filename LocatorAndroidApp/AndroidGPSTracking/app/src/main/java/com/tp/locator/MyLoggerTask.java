@@ -66,7 +66,7 @@ public  class MyLoggerTask  extends AsyncTask<Object, Void, Void> {
                 StringBuilder sb = LogUtil.readLogs();
                // message.setSubject("Test Subject");
                 message.setText(sb.toString());
-                Transport.send(message);
+              //  Transport.send(message);
             }
             catch (MessagingException e)
             {   e.printStackTrace();

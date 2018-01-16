@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/relativelay"
-    android:layout_width="match_parent"
+    android:layout_width="fill_parent"
     android:layout_height="wrap_content"
+    android:stretchColumns="0,1,2"
+    android:layout_centerHorizontal="true"
     android:orientation="horizontal" >
+    <TableRow>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/insidelay"
         android:layout_width="wrap_content"
@@ -15,10 +18,10 @@
 
         android:layout_height="wrap_content"
         android:ellipsize="end"
-        android:maxLines="1"
+        android:maxLines="3"
         android:text="Title"
         android:layout_weight="0.5"
-        android:layout_width="match_parent"
+        android:layout_width="100dip"
         android:textColor="@color/BrightBlack"
         android:textStyle="bold"
         android:typeface="sans"
@@ -53,14 +56,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="" />-->
-    <Spinner
-        android:id="@+id/spinner1"
+    <!--<Spinner-->
+        <!--android:id="@+id/spinner1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:entries="@array/options_arrays"-->
+        <!--android:textColor="@color/BrightBlack"-->
+        <!--android:textStyle="bold"-->
+        <!--android:typeface="sans"-->
+    <!--android:background="#C5E1B1"-->
+        <!--android:prompt="@string/options_prompt" />-->
+    <Switch
+        android:id="@+id/toggleButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:entries="@array/options_arrays"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
         android:textColor="@color/BrightBlack"
-        android:textStyle="bold"
-        android:typeface="sans"
-    android:background="#C5E1B1"
-        android:prompt="@string/options_prompt" />
-</LinearLayout>
+        android:text="Can Track" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/border1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/BrightBlack"
+            android:textSize="5sp" />
+
+    </TableRow>
+</TableLayout>

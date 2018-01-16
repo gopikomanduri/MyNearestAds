@@ -42,11 +42,14 @@
     import static com.tp.locator.MyKeepALiveClass.msgFromServer;
     import static com.tp.locator.MyKeepALiveClass.serverCnt;
     import static com.tp.locator.MyKeepALiveClass.timerObj;
+    import static com.tp.locator.SocketService.gcmIntent;
     import static com.tp.locator.SocketService.messagesToPush;
     import static com.tp.locator.SocketService.mysock;
     import static java.lang.Thread.State.WAITING;
 
     import java.util.Properties;
+    import java.util.concurrent.ConcurrentLinkedQueue;
+
     import javax.mail.Message;
     import javax.mail.MessagingException;
     import javax.mail.PasswordAuthentication;
@@ -265,7 +268,7 @@
         public static  WebSocketClient createWebSocketClient() {
             URI uri;
             try {
-                uri = new URI("ws://162.222.177.34:9090");
+                uri = new URI("ws://35.196.222.199:9090");
             }
             catch (URISyntaxException e) {
                 e.printStackTrace();
@@ -324,9 +327,7 @@
                             intent.setAction("com.google.android.c2dm.intent.RECEIVE");
                             intent.putExtra("message_type", "gcm");
 
-                            GCMNotificationIntentService gcmIntent = new GCMNotificationIntentService();
-                            GCMNotificationIntentService.tempCtx = mctx;
-
+                         //   SocketService.receivedMsgs.offer(intent);
                             gcmIntent.onHandleIntent(intent);
                         }
                         {

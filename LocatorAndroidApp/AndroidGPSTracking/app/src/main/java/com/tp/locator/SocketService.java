@@ -4,6 +4,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Timer;
 import java.util.TimerTask;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -69,6 +70,10 @@ public class SocketService extends Service {
     static Comparator<String> comparator = new CommsComparator();
 
     public static PriorityQueue<String> messagesToPush = new PriorityQueue<String>(100,comparator);
+    public static ConcurrentLinkedQueue<Intent> receivedMsgs = new ConcurrentLinkedQueue<Intent>();
+   public static GCMNotificationIntentService gcmIntent = new GCMNotificationIntentService();
+
+
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -109,8 +114,11 @@ public class SocketService extends Service {
             e.printStackTrace();
         }
         MyWebsocketClient.mctx = this;
+        GCMNotificationIntentService.tempCtx = this;
         mysock = MyWebsocketClient.createWebSocketClient();
-            // return super.onStartCommand(intent, flags, startId);
+    //    new MsgHandlerAsync().execute();
+
+        // return super.onStartCommand(intent, flags, startId);
         return START_STICKY;
 
     }

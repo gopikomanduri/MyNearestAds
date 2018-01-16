@@ -4,14 +4,15 @@
     android:background="@drawable/background"
     android:tileMode="repeat"
     android:layout_height="match_parent">
-    <EditText android:textColor="@color/BrightBlack" android:textSize="20sp" android:maxLength="256"
+    <EditText android:textColor="@color/BrightBlack" android:textSize="13sp" android:maxLength="256"
         android:layout_height="wrap_content" android:id="@+id/notificationtext"
         android:hint="Push Msg"
         android:layout_width="fill_parent"
+        android:textColorHint="@color/BrightBlue"
 
         android:layout_gravity="center_horizontal" android:paddingTop="5dp"/>
     <Button android:layout_height="wrap_content"
-        android:layout_weight="0" android:id="@+id/btnNotificationMsg" android:text="Update"
+        android:layout_weight="0" android:id="@+id/btnNotificationMsg" android:text="Send"
         android:layout_width="wrap_content"></Button>
 
     <ListView
