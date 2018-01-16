@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popup_element"
+    android:background="#444444"
+    android:orientation="vertical"
+    android:padding="10sp" >
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/saveName"
+        android:hint="Name"
+        android:singleLine="true"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+
+        android:hint="Professional Name"
+
+        android:id="@+id/saveProfessionalName" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+
+        android:hint="Service"
+
+        android:id="@+id/saveServiceName" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+
+        android:hint="contact number"
+        android:inputType="number"
+
+        android:id="@+id/contact" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+
+        android:id="@+id/SaveDetails"
+        android:text="Save" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+
+        android:id="@+id/CancelSave"
+        android:text="Cancel" />
+
+</LinearLayout>
+    </ScrollView>

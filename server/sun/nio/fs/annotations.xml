@@ -1,0 +1,5 @@
+<root>
+    <item name='sun.nio.fs.WindowsException void rethrowAsIOException(sun.nio.fs.WindowsPath, sun.nio.fs.WindowsPath)'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "24792561107",
+    "firebase_url": "https://comtplocator.firebaseio.com",
+    "project_id": "comtplocator",
+    "storage_bucket": "comtplocator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24792561107:android:b98ccd7f80558a5c",
+        "android_client_info": {
+          "package_name": "com.tp.locator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24792561107-sj4l7ubnrvre63hhis0smvoad7135eub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWzAqwviK0NRvrmlaL9MDSwXZpaDSCsa0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

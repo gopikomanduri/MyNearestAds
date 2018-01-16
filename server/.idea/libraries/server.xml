@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="server">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/activejdbc-master.zip!/" />
+      <root url="jar://$PROJECT_DIR$/activejdbc-1.4.jar.zip!/" />
+      <root url="jar://$PROJECT_DIR$/jarfile.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

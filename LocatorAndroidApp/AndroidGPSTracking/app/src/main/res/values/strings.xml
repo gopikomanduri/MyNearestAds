@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidGPSTrackingActivity!</string>
+    <string name="app_name">Locator</string>
+    <string name="options_prompt">Choose an option</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+     <string name="enter_username">Enter mobile number</string>
+      <string name="enter_password">Enter Password</string>
+    <string name="crash_toast_text">Well!! This is embarassing , Application is crashed . Report has been sent to gopi komanduri</string>
+    <string-array name="options_arrays">
+        <item>No</item>
+        <item>Yes</item>
+        <!--commented beloew to remove Mock-->
+        <!--<item>Mock</item>-->
+    </string-array>
+
+</resources>

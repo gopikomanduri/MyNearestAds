@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="jarfile">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jarfile/jarfile/slf4j-simple-1.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jarfile/jarfile/javalite-common-1.4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jarfile/jarfile/activejdbc-instrumentation-1.4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jarfile/jarfile/javassist-3.16.1-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jarfile/jarfile/activejdbc-1.4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jarfile/jarfile/gson-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jarfile/jarfile/junit-4.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jarfile/jarfile/slf4j-api-1.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jarfile/jarfile/mysql-connector-java-5.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
