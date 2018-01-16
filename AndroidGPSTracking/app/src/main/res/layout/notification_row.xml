@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/notificationdate"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/BrightBlack"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/notificationText"
+        android:layout_below="@+id/notificationdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/BrightBlack"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/notificationTexttborder"
+        android:layout_below="@+id/notificationText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/BrightBlack"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

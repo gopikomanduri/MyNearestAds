@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3a2c247122ebdb2c3b800ae266c68526329fb00b">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2c4a7212609cbb8d529fe1e9df636369619416a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\libs\gson-2.8.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="02a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.8.1_b07d2d2f723c9f9ba8010948f2b8b6a262b8261a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\libs\acra-4.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b99297996579b72496c9f81b0c12d8404c74e618">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\2\acra-4.6.2_3b6cf129978b59bb66642180ab4548ace36ff9bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_eecbb580082b4a95a0e2d6a6f19eaf82a57f9d15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\libs\eventbus-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8957e80562a7e6ac5d9421e46e0898336c06c307">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\2\eventbus-2.2.0_a93d88044881fd147853974fd3a26502e4ec9176\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\libs\additionnal.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\2\additionnal_db0de9d221108f939e71cc8a889aae2abc8268b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\libs\slf4j-api-1.7.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="562424e36df3d2327e8e9301a76027fca17d54ea">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\2\slf4j-api-1.7.6_dd9672e7f07c11bf5360ccc04e9e6b3a43154d21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\libs\joda-time-2.9.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f7b520c458572890807d143670c9b24f4de90897">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\2\joda-time-2.9.9_5865b982d529f2c92273670fbeacbc8442055085\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\libs\activation.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\2\activation_d9416aaf750966b96aaedad1147a07ee0f12dd80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\libs\logback-android-1.1.1-4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9aaa842dff7ada833bbc6ca2bf92b6680b29a5da">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\2\logback-android-1.1.1-4_17df6fd26c84eba1e8fbe4d981868fb549a12070\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\libs\google-play-services.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="be555ed84d38d5d761d827a6c94ae5485692dba2">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-play-services_e72b74f00a42c1812106eed7340ea4c74cf3ed78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_98f20719147cfe30406eb17ea9f2d25002a0296f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\libs\mail.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\checkIn code\MyLocator\mylocator\LocatorAndroidApp\AndroidGPSTracking\app\build\intermediates\transforms\dex\debug\folders\1000\2\mail_86abfc9537d6dd33f8b93002e4b97a693f61efd0\classes.dex" />
+    </item>
+
+</items>

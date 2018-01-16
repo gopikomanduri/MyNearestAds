@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_row.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\notification_row.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nearest_row.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\nearest_row.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\location_main.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\location_main.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\savedlocation_main.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\savedlocation_main.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings_main.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\settings_main.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nearestfriends.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\nearestfriends.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\otp.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\otp.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shareaddress.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\shareaddress.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\announcementsbiz.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\announcementsbiz.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\savepopupmenu.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\savepopupmenu.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alluser_row.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\alluser_row.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\announcements.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\announcements.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\child_item.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\child_item.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\notification.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\savedlocation_row.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\savedlocation_row.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\advancedsettings.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\advancedsettings.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sign_up.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\locations_row.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\locations_row.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_item.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\group_item.xml"
+    },
+    {
+        "merged": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    }
+]

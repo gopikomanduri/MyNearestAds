@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+        <Spinner
+            android:id="@+id/spinnercategories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:entries="@array/announcements_categories"
+            android:layout_marginTop="83dp" />
+
+        <Spinner
+            android:id="@+id/spinneremergencysections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:entries="@array/announcements_emergency_categories"
+            android:visibility="gone"
+            android:layout_marginTop="83dp" />
+        <Spinner
+            android:id="@+id/spinneremergencybloodgroupsections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:entries="@array/announcements_bloodgroups_categories"
+            android:visibility="gone"
+            android:layout_marginTop="83dp" />
+        <Spinner
+            android:id="@+id/spinnerannouncementscommercialsections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:entries="@array/announcements_commercial_categories"
+            android:visibility="gone"
+            android:layout_marginTop="83dp" />
+        <Spinner
+            android:id="@+id/spinnerannouncementsfoodsections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:entries="@array/announcements_food_categories"
+            android:visibility="gone"
+            android:layout_marginTop="83dp" />
+        <Spinner
+            android:id="@+id/spinnerannouncementsbeautyparloursections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:entries="@array/announcements_beautyparlour_categories"
+            android:visibility="gone"
+            android:layout_marginTop="83dp" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnCapturePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/btnTakePicture" />
+    </LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:textColor="@color/BrightBlack"
+    android:background="@drawable/background"
+    android:tileMode="repeat"
+
+    android:textStyle="bold"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/nearestContactInfo"
+        android:layout_width="wrap_content"
+        android:textColor="@color/BrightBlack"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/nearestContactborder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationInfo"
+        android:textColor="@color/BrightBlack"
+        android:textStyle="bold"
+        android:layout_marginTop="5dip"
+        android:textSize="12sp" />
+
+</RelativeLayout>
