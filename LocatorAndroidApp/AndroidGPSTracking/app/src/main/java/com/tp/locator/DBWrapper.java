@@ -151,6 +151,10 @@ public class DBWrapper extends SQLiteOpenHelper {
                         "(_id integer primary key autoincrement, "+
                         "catname text)"
         );
+
+
+
+
         db.execSQL(
                 "create table emergency "+
                         "(_id integer primary key autoincrement, "+
@@ -233,14 +237,21 @@ public class DBWrapper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+    public void insertInitialData()
+    {
+        insertcategory("Emergency");
+        insertcategory("Social");
+        insertcategory("Commercial");
+        insertcategory("Sports");
+    }
 
     public boolean insertcategory(String categoryname)
     {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
 
-        Integer pkVal = 1;
-        contentValues.put("_id", pkVal);
+//        Integer pkVal = 1;
+//        contentValues.put("_id", pkVal);
         contentValues.put("catname",categoryname);
         db.insertWithOnConflict("categories", null, contentValues, CONFLICT_REPLACE );
         return true;

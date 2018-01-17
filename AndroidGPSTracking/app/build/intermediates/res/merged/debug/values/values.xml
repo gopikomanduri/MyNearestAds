@@ -83,7 +83,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="app_name">Locator</string>
     <string name="btnTakePicture">Capture Image</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">6f2500d8-1570-455f-aced-bff07fb21d10</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">d7271e75-2906-4859-bed3-7c689213ff19</string>
     <string name="crash_toast_text">Well!! This is embarassing , Application is crashed . Report has been sent to gopi komanduri</string>
     <string name="custom_font" translatable="false">fonts/Bender-Solid.otf</string>
     <string name="enter_dob">Enter dob</string>
