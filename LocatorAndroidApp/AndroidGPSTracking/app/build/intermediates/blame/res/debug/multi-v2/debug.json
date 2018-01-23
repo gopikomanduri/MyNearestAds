@@ -1,0 +1,120 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,146",
+                        "endColumns": "57,55",
+                        "endOffsets": "141,197"
+                    },
+                    "to": {
+                        "startLines": "81,82",
+                        "startColumns": "4,4",
+                        "startOffsets": "3308,3366",
+                        "endColumns": "57,55",
+                        "endOffsets": "3361,3417"
+                    }
+                },
+                {
+                    "source": "/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "3,2,4,6,8,10,12,11,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,55,146,187,228,330,444,383,275",
+                        "endColumns": "45,44,39,39,46,52,58,60,54",
+                        "endOffsets": "141,95,181,222,270,378,498,439,325"
+                    },
+                    "to": {
+                        "startLines": "58,59,60,61,62,63,64,65,66",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1722,1768,1813,1853,1893,1940,1993,2052,2113",
+                        "endColumns": "45,44,39,39,46,52,58,60,54",
+                        "endOffsets": "1763,1808,1848,1888,1935,1988,2047,2108,2163"
+                    }
+                },
+                {
+                    "source": "/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "80,50,35,62,42,75,23,30,4,86,20,10,18,16,14,15,17,13,3,6,22,5,9,12,8,21,7",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,6,4,5,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2562,1780,1397,2059,1588,2421,1101,1292,131,2730,870,409,821,723,608,665,773,545,56,236,1057,176,368,494,319,1008,276",
+                        "endLines": "84,60,41,73,48,78,28,33,4,86,20,10,18,16,14,15,17,13,3,6,22,5,9,12,8,21,7",
+                        "endColumns": "19,19,19,19,19,19,19,19,44,56,137,83,47,49,54,59,47,63,74,39,43,59,40,49,48,48,42",
+                        "endOffsets": "2724,2053,1583,2415,1774,2556,1286,1391,171,2782,1003,488,864,768,658,718,816,603,126,271,1096,231,404,539,363,1052,314"
+                    },
+                    "to": {
+                        "startLines": "2,7,18,25,37,44,48,54,83,84,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,267,545,736,1097,1288,1428,1618,3422,3467,3689,3827,3911,3959,4009,4064,4122,4170,4233,4308,4348,4392,4452,4493,4543,4592,4641",
+                        "endLines": "6,17,24,36,43,47,53,57,83,84,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102",
+                        "endColumns": "19,19,19,19,19,19,19,19,44,56,137,83,47,49,54,57,47,62,74,39,43,59,40,49,48,48,42",
+                        "endOffsets": "262,540,731,1092,1283,1423,1613,1717,3462,3519,3822,3906,3954,4004,4059,4117,4165,4228,4303,4343,4387,4447,4488,4538,4587,4636,4679"
+                    }
+                },
+                {
+                    "source": "/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml",
+                    "from": {
+                        "startLines": "8",
+                        "startColumns": "0",
+                        "startOffsets": "303",
+                        "endColumns": "162",
+                        "endOffsets": "465"
+                    },
+                    "to": {
+                        "startLines": "85",
+                        "startColumns": "4",
+                        "startOffsets": "3524",
+                        "endColumns": "164",
+                        "endOffsets": "3684"
+                    }
+                },
+                {
+                    "source": "/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "54,150",
+                        "endLines": "5,9",
+                        "endColumns": "12,12",
+                        "endOffsets": "144,266"
+                    },
+                    "to": {
+                        "startLines": "103,106",
+                        "startColumns": "4,4",
+                        "startOffsets": "4684,4779",
+                        "endLines": "105,108",
+                        "endColumns": "12,12",
+                        "endOffsets": "4774,4895"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/build/intermediates/res/merged/debug/values-w820dp-v13_values-w820dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "291",
+                        "endColumns": "57",
+                        "endOffsets": "344"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

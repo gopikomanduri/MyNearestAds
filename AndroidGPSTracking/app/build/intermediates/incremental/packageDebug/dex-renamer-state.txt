@@ -1,7 +1,0 @@
-#Sun Jan 14 13:12:57 IST 2018
-base.0=C\:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2c4a7212609cbb8d529fe1e9df636369619416a8
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_98f20719147cfe30406eb17ea9f2d25002a0296f\\classes.dex
-base.1=C\:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_98f20719147cfe30406eb17ea9f2d25002a0296f
-file.0=C\:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2c4a7212609cbb8d529fe1e9df636369619416a8\\classes.dex

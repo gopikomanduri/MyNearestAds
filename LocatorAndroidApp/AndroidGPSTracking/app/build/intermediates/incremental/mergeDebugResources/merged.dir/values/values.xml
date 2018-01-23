@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="announcements_beautyparlour_categories">
+        <item>mens</item>
+        <item>women</item>
+        <item>UnixSex</item>
+    </string-array>
+    <string-array name="announcements_bloodgroups_categories">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+
+    </string-array>
+    <string-array name="announcements_categories">
+        <item>Emergency</item>
+        <item>Social</item>
+        <item>Commercial</item>
+        <item>I Need</item>
+
+    </string-array>
+    <string-array name="announcements_commercial_categories">
+        <item>groceries</item>
+        <item>appeareals</item>
+        <item>vegetables</item>
+        <item>food</item>
+        <item>stationery</item>
+        <item>furniture</item>
+        <item>spa</item>
+        <item>Beauty Parlour</item>
+        <item>Diagnostics</item>
+
+    </string-array>
+    <string-array name="announcements_emergency_categories">
+        <item>Blood</item>
+        <item>Doctor</item>
+        <item>Police</item>
+        <item>Help</item>
+
+    </string-array>
+    <string-array name="announcements_food_categories">
+        <item>veg food</item>
+        <item>non-veg food</item>
+    </string-array>
+    <string-array name="options_arrays">
+        <item>No</item>
+        <item>Yes</item>
+        <!--commented beloew to remove Mock-->
+        <!--<item>Mock</item>-->
+    </string-array>
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <color name="BrightBlack">#000000</color>
+    <color name="BrightBlue">#4099FF</color>
+    <color name="Cream">#EEE8DC</color>
+    <color name="White">#4099FF</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <declare-styleable name="SwipeListView"><attr format="boolean" name="swipeOpenOnLongPress"/><attr format="integer" name="swipeAnimationTime"/><attr format="dimension" name="swipeOffsetLeft"/><attr format="dimension" name="swipeOffsetRight"/><attr format="boolean" name="swipeCloseAllItemsWhenMoveList"/><attr format="reference" name="swipeFrontView"/><attr format="reference" name="swipeBackView"/><attr format="enum" name="swipeMode">
+            <enum name="none" value="0"/>
+            <enum name="both" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="left" value="3"/>
+        </attr><attr format="enum" name="swipeActionLeft">
+            <enum name="reveal" value="0"/>
+            <enum name="dismiss" value="1"/>
+            <enum name="choice" value="2"/>
+        </attr><attr format="enum" name="swipeActionRight">
+            <enum name="reveal" value="0"/>
+            <enum name="dismiss" value="1"/>
+            <enum name="choice" value="2"/>
+        </attr><attr format="reference" name="swipeDrawableChecked"/><attr format="reference" name="swipeDrawableUnchecked"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">Locator</string>
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">fe1ea772-daa9-41f7-9d5e-4f4d19ed35a2</string>
+    <string name="crash_toast_text">Well!! This is embarassing , Application is crashed . Report has been sent to gopi komanduri</string>
+    <string name="custom_font" translatable="false">fonts/Bender-Solid.otf</string>
+    <string name="enter_dob">Enter dob</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_otp">Enter mobile otp</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_sex">Enter sex</string>
+    <string name="enter_username">Enter mobile number</string>
+    <string name="hello">Hello World, AndroidGPSTrackingActivity!</string>
+    <string name="login">Login</string>
+    <string name="message">address</string>
+    <string name="options_prompt">Choose an option</string>
+    <string name="otpback">back</string>
+    <string name="otpconfirm">verify otp</string>
+    <string name="otpresend">resend otp</string>
+    <string name="sex_input">Choose sex</string>
+    <string name="signup">Sign Up</string>
+    <style name="AppTheme" parent="">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AppThemeNoTitle" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

@@ -136,6 +136,7 @@ public static Context tempCtx = null;
                         String date = extras.get("date").toString();
                   //      Integer category = Integer.valueOf(extras.get("category").toString());
                         String msg = extras.get("strMsg").toString();
+                        String img = "";
 
 
                         if(AnnouncementsFragment.dbObj == null)
@@ -149,8 +150,11 @@ public static Context tempCtx = null;
 
                         }
                         Integer category = 1;
+                        if(extras.containsKey("img") == true)
+                            img = extras.get("img").toString();
 
-                        AnnouncementsFragment.dbObj.insertAnn(timeStamp, date, category, msg);
+
+                        AnnouncementsFragment.dbObj.insertAnn(timeStamp, date, category, msg, img);
                         AnnouncementsFragment.getReceivedAnnouncements();
 
 

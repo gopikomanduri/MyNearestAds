@@ -1,0 +1,8 @@
+
+*.bin
+*.class
+*.class
+*.class
+AndroidGPSTracking/app/build/intermediates/incremental-verifier/debug/com/tp/locator/GPSTracker.class
+*.class
+AndroidGPSTracking/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ZaI5M55Zb_mChyDttL4z66tJ8S4=

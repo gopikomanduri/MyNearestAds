@@ -1,0 +1,3 @@
+# Referenced at /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:37
+-keep class com.tp.locator.MyApplication { <init>(...); }
+

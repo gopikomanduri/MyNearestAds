@@ -126,6 +126,7 @@ public class DBWrapper extends SQLiteOpenHelper {
                         "timestamp integer," +
                         "date text," +
                         "category integer," +
+                        "img text," +
                         "msg text)"
         );
 
@@ -483,7 +484,7 @@ public class DBWrapper extends SQLiteOpenHelper {
 
 
 
-    public boolean insertAnn(Long timestamp, String date, Integer category, String msg)
+    public boolean insertAnn(Long timestamp, String date, Integer category, String msg, String img)
     {
 //        "(_id integer primary key autoincrement," +
 //                "timestamp integer," +
@@ -497,6 +498,7 @@ public class DBWrapper extends SQLiteOpenHelper {
         contentValues.put("timestamp", timestamp);
         contentValues.put("date", date);
         contentValues.put("category", category);
+        contentValues.put("img", img);
         contentValues.put("msg", msg);
        long ret = db.insert("receivedannouncements", null, contentValues);
 

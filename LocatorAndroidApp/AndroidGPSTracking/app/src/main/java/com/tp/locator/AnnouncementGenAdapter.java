@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
@@ -84,6 +85,7 @@ public class AnnouncementGenAdapter extends ArrayAdapter<AnnouncementGenClass> {
 
             holder.announcement = (TextView) convertView.findViewById(R.id.notificationText);
             holder.dateHolder = (TextView) convertView.findViewById(R.id.notificationdate);
+            holder.receivedImg = (ImageView)convertView.findViewById(R.id.ReceivedImage);
 
             convertView.setTag(holder);
             convertView.setTag(R.id.locationInfo, holder.announcement);
@@ -100,6 +102,7 @@ public class AnnouncementGenAdapter extends ArrayAdapter<AnnouncementGenClass> {
       //  if (holder.announcement != null) {
             holder.announcement.setText(items.get(position).msg);
             holder.dateHolder.setText(items.get(position).date);
+            holder.receivedImg.setImageBitmap(items.get(position).imgReceived);
           //  holder.border.setText(items.get(position).border);
        // }
         if(position == 0) {

@@ -1,0 +1,332 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:2:1-150:12
+INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:2:1-150:12
+INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:2:1-150:12
+INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:2:1-150:12
+MERGED from [:geohashlibrary] /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/ThirdParty/geohashlibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/f5622aeaae6d357285e7a2354f5dc705/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/27d173749243a52d7d199a56bb4244ec/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/bde6660e5debf8bbe5b620088687bc90/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/4c7a52c71dc3bf77246da9b648071f73/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d04dd54871c6be7418f4dfd17f430cca/AndroidManifest.xml:22:1-33:12
+INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:2:1-150:12
+INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:2:1-150:12
+INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:2:1-150:12
+	package
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [:geohashlibrary] /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/ThirdParty/geohashlibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:geohashlibrary] /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/ThirdParty/geohashlibrary/build/intermediates/manifests/full/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/f5622aeaae6d357285e7a2354f5dc705/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/f5622aeaae6d357285e7a2354f5dc705/AndroidManifest.xml:20:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/27d173749243a52d7d199a56bb4244ec/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/27d173749243a52d7d199a56bb4244ec/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/bde6660e5debf8bbe5b620088687bc90/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/bde6660e5debf8bbe5b620088687bc90/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/4c7a52c71dc3bf77246da9b648071f73/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/4c7a52c71dc3bf77246da9b648071f73/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d04dd54871c6be7418f4dfd17f430cca/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d04dd54871c6be7418f4dfd17f430cca/AndroidManifest.xml:27:5-43
+INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml
+permission#com.tp.locator.permission.C2D_MESSAGE
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:11:5-107
+	android:protectionLevel
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:11:70-105
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:11:17-69
+application
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:14:5-120:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/27d173749243a52d7d199a56bb4244ec/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/27d173749243a52d7d199a56bb4244ec/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/bde6660e5debf8bbe5b620088687bc90/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/bde6660e5debf8bbe5b620088687bc90/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/4c7a52c71dc3bf77246da9b648071f73/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/4c7a52c71dc3bf77246da9b648071f73/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d04dd54871c6be7418f4dfd17f430cca/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d04dd54871c6be7418f4dfd17f430cca/AndroidManifest.xml:31:5-20
+	android:label
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:20:9-41
+	android:largeHeap
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:17:9-33
+	android:icon
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:15:9-38
+	android:allowBackup
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:19:9-35
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:16:9-37
+uses-library#com.google.android.maps
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:21:9-64
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:21:23-61
+receiver#com.tp.locator.autostart
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:22:9-26:20
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:22:19-44
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:23:13-25:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:24:17-79
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:24:25-76
+activity#com.tp.locator.SplashActivity
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:27:9-36:20
+	android:screenOrientation
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:29:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:31:13-54
+	android:configChanges
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:30:13-63
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:28:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:34:27-74
+activity#com.tp.locator.SignUpActivity
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:38:9-43:20
+	android:screenOrientation
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:40:13-49
+	android:label
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:42:13-45
+	android:configChanges
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:41:13-63
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:39:13-43
+activity#com.tp.locator.MainActivity
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:44:9-49:20
+	android:screenOrientation
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:46:13-49
+	android:label
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:48:13-45
+	android:configChanges
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:47:13-63
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:45:13-41
+activity#com.tp.locator.otpActivity
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:50:9-55:20
+	android:screenOrientation
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:52:13-49
+	android:label
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:54:13-45
+	android:configChanges
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:53:13-63
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:51:13-40
+receiver#com.tp.locator.GcmBroadcastReceiver
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:65:9-74:20
+	android:permission
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:67:13-73
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:66:13-49
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:68:13-73:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:69:17-81
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:69:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:70:17-86
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:70:25-83
+service#com.tp.locator.GCMNotificationIntentService
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:76:9-81:19
+	android:enabled
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:77:13-35
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:76:18-62
+intent-filter#com.tp.locator.GCMNotificationIntentService
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:78:13-80:29
+action#com.tp.locator.GCMNotificationIntentService
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:79:17-86
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:79:25-83
+service#com.tp.locator.SocketService
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:84:9-85:46
+	android:enabled
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:85:13-35
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:84:18-47
+service#com.tp.locator.DataService
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:86:9-57
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:86:18-45
+service#com.tp.locator.ContactUpdateService
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:87:9-66
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:87:18-54
+provider#com.tp.locator.ContactContentProvider
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:88:9-92:20
+	android:authorities
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:90:13-74
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:89:13-65
+receiver#com.tp.locator.MySmsReceiver
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:94:9-99:20
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:94:19-47
+intent-filter#android.intent.action.BOOT_COMPLETED+android.provider.Telephony.SMS_RECEIVED
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:95:13-98:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:96:17-82
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:96:25-79
+receiver#com.tp.locator.SocketCommunicationEstablisher
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:102:9-110:20
+	android:enabled
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:103:13-35
+	android:exported
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:104:13-36
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:102:19-65
+intent-filter#android.intent.action.BOOT_COMPLETED+com.tp.locator.SensorRestarterBroadcastReceiver
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:105:13-109:33
+	android:priority
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:105:28-50
+action#com.tp.locator.SensorRestarterBroadcastReceiver
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:106:21-93
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:106:29-91
+receiver#com.tp.locator.WakefulReceiver
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:114:9-116:20
+	android:enabled
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:115:13-35
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:114:19-50
+meta-data#io.fabric.ApiKey
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:117:9-119:72
+	android:value
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:119:13-69
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:118:13-44
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:122:2-76
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:122:19-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:123:5-78
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:123:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:125:5-75
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:125:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:126:5-75
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:126:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:127:5-78
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:127:22-76
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:128:5-129:23
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:128:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:130:5-131:23
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:130:22-67
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:132:5-72
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:132:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:133:5-73
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:133:22-70
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:134:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/27d173749243a52d7d199a56bb4244ec/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/27d173749243a52d7d199a56bb4244ec/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/bde6660e5debf8bbe5b620088687bc90/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/bde6660e5debf8bbe5b620088687bc90/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/4c7a52c71dc3bf77246da9b648071f73/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/4c7a52c71dc3bf77246da9b648071f73/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d04dd54871c6be7418f4dfd17f430cca/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d04dd54871c6be7418f4dfd17f430cca/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:134:22-64
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:136:5-82
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:136:22-79
+uses-permission#com.tp.locator.permission.C2D_MESSAGE
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:137:5-77
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:137:22-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:141:5-81
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:141:23-79
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:142:5-75
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:142:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:143:5-81
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:143:22-78
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:144:5-88
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:144:22-85
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:145:5-71
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:145:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:146:5-68
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:146:22-65
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:147:5-68
+	android:name
+		ADDED from /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/main/AndroidManifest.xml:147:22-65
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/AndroidManifest.xml:13:13-75

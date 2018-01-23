@@ -1,5 +1,6 @@
 package com.tp.locator;
 
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -12,4 +13,5 @@ public class AnnouncmentGenHolder {
     public TextView dateHolder;
     public TextView announcement;
     public TextView border;
+    public ImageView receivedImg;
 }

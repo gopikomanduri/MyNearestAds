@@ -3,12 +3,15 @@ package com.tp.locator;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
+import android.util.Base64;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -279,9 +282,26 @@ public class AnnouncementsFragment extends Fragment implements LoaderManager.Loa
                         Integer id = c.getInt(c.getColumnIndex("_id"));
                         String timestamp = c.getString(c.getColumnIndex("date"));
                         String msg = c.getString(c.getColumnIndex("msg"));
+                        String receivedMsg = c.getColumnName(c.getColumnIndex("img"));
                         AnnouncementGenClass obj = new AnnouncementGenClass();
                         obj.msg = msg.toString();
                         obj.date = timestamp;
+                     //   byte[] imgBytes = receivedMsg.getBytes();
+
+                    //   Bitmap imgReceived =  BitmapFactory.decodeByteArray(imgBytes, 0, imgBytes.length);
+
+
+                        if(receivedMsg != null && receivedMsg.length() > 0) {
+                            byte[] verifiedArrayImage = Base64.decode(receivedMsg, Base64.DEFAULT);
+                            if(verifiedArrayImage.length > 0)
+                            {
+                                Bitmap verifiedImg = BitmapFactory.decodeByteArray(verifiedArrayImage, 0, verifiedArrayImage.length);
+                          if(verifiedImg != null)
+                          {
+                                Bitmap bMapScaled = Bitmap.createScaledBitmap(verifiedImg, 150, 150, true);
+
+                                obj.imgReceived = bMapScaled;
+                        }}}
 
                         linkedList.add(obj);
 

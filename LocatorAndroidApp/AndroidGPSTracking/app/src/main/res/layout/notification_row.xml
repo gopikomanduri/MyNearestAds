@@ -29,5 +29,9 @@
         android:layout_height="wrap_content"
         android:textColor="@color/BrightBlack"
         android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/ReceivedImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>

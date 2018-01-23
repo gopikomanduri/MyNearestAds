@@ -1,2 +1,0 @@
-include ':app', ':geohashlibrary'
-project(':geohashlibrary').projectDir = new File('app/src/ThirdParty/geohashlibrary')

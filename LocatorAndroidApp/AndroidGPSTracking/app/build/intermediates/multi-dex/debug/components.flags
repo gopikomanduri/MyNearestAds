@@ -1,0 +1,68 @@
+-injars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/libs/nineoldandroids-2.4.0.jar'(**.class)
+-injars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/libs/activation.jar'(**.class)
+-injars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/libs/mail.jar'(**.class)
+-injars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/libs/additionnal.jar'(**.class)
+-injars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/libs/eventbus-2.2.0.jar'(**.class)
+-injars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/libs/google-play-services.jar'(**.class)
+-injars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/libs/slf4j-api-1.7.6.jar'(**.class)
+-injars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/libs/logback-android-1.1.1-4.jar'(**.class)
+-injars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/libs/joda-time-2.9.9.jar'(**.class)
+-injars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/libs/acra-4.6.2.jar'(**.class)
+-injars /Users/gopikomanduri/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.1.6/e3d5f6ab2003e31f2cf5ea61b4731a21e9517935/androidasync-2.1.6.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/modules-2/files-2.1/com.googlecode.concurrent-trees/concurrent-trees/2.5.0/353e7a74c05a0bab9540c311a0c041d64e718930/concurrent-trees-2.5.0.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/modules-2/files-2.1/tech.gusavila92/java-android-websocket-client/1.1.4/ba7257474ba78121f78e7b3bab85b0c3388eb408/java-android-websocket-client-1.1.4.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/fe4feef3c3a6e15bf804b3ffbe338bc1/jars/classes.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/f5622aeaae6d357285e7a2354f5dc705/jars/classes.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/9e09011e9767bb76b5e27c9b8223476b93b14631/converter-gson-2.3.0.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/27d173749243a52d7d199a56bb4244ec/jars/classes.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/bde6660e5debf8bbe5b620088687bc90/jars/classes.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/4c7a52c71dc3bf77246da9b648071f73/jars/classes.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d04dd54871c6be7418f4dfd17f430cca/jars/classes.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar(**.class)
+-injars /Users/gopikomanduri/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar(**.class)
+-injars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/src/ThirdParty/geohashlibrary/build/intermediates/intermediate-jars/debug/classes.jar'(**.class)
+-injars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/build/intermediates/classes/debug'(**.class)
+-outjars '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/build/intermediates/multi-dex/debug/componentClasses.jar'
+
+-libraryjars /Users/gopikomanduri/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration '/Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/build/intermediates/multi-dex/debug/components.flags'
+
+
+# Referenced at /Users/gopikomanduri/Downloads/UI Code/MyNearestAds/LocatorAndroidApp/AndroidGPSTracking/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:37
+-keep class com.tp.locator.MyApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

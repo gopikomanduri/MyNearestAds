@@ -43,6 +43,11 @@ public class MainActivity extends FragmentActivity implements
   //  private String[] tabs = { "Location","Traveled Locations" };
 
     @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 

@@ -1,4 +1,0 @@
-#Sun Jan 14 03:03:11 IST 2018
-base.0=C\:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0
-renamed.0=classes.dex
-file.0=C\:\\checkIn code\\MyLocator\\mylocator\\LocatorAndroidApp\\AndroidGPSTracking\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0\\classes.dex
